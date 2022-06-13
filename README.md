@@ -13,18 +13,17 @@ Dwa obrazy nginx w dwóch wersjach (latest i stable):
 [nginx.stable](https://hub.docker.com/layers/232832274/michalnurz/labox/nginx.stable/images/sha256-62accd5c832bf46871dfd604f86db86a8d2e0e9e4a376c4a05469718a56702d4?context=repo) |
 [nginx.latest](https://hub.docker.com/layers/232832506/michalnurz/labox/nginx.latest/images/sha256-25dedae0aceb6b4fe5837a0acbacc6580453717f126a095aa05a3c6fcea14dd4?context=repo)
 
-[deployment1](/images/deployment1.PNG)
-[deployment2](/images/deployment2.PNG)
-[deployment3](/images/deployment3.PNG)
-[deployment4](/images/deployment4.PNG)
-[deployment5](/images/deployment5.PNG)
+![deployment1](/images/deployment1.PNG)
+![deployment2](/images/deployment2.PNG)
+![deployment3](/images/deployment3.PNG)
+![deployment4](/images/deployment4.PNG)
+![deployment5](/images/deployment5.PNG)
 
 
 <h2>Dodatkowe zadanie</h2>
 Wykorzystując przykłady z poprzednich (szczególnie dwóch) slajdów należy:
-- opracować plik konfiguracyjny dla obiektu Deployment ([client-deployment](/lab13Add/client-deployment.yaml), [server-deployment](/lab13Add/server-deployment.yaml), [worker-deployment](/lab13Add/worker-deployment.yaml))
-- opracować plik konfiguracyjny dla obiektu ClusterIP Service ([client-cluster-ip](/lab13Add/client-cluster-ip-service.yaml), [server-cluster-ip](/lab13Add/server-cluster-ip-service.yaml))
+- opracować plik konfiguracyjny dla obiektu Deployment 
 - wdrożyć w/w obiekty w klastrze Kubernetes (minikube)
 - za pomocą poznanych poleceń udowodnić poprawność wykonanych konfiguracji
 
-[deployment6additional](/images/deployment6additional.PNG)
+![deployment6additional](/images/deployment6additional.PNG)
