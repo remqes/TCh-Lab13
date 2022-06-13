@@ -1,6 +1,6 @@
 <h2>Laboratorium programowania aplikacji w chmurach obliczeniowych.</h2>
 
-###P13.1. Wykorzystując przytoczone w instrukcji przykłady zarządzania wdrożeniem, należy:
+### P13.1. Wykorzystując przytoczone w instrukcji przykłady zarządzania wdrożeniem, należy:
 - utworzyć dwa obrazy (udostępnione w środowisku DockerHub) wyświetlające poprzez stronę internetową informację o wersji obrazu (należy nadać obrazom dwie dowolnie wybrane nazwy),
 - uruchomić obiekt Deployment działający z 3 podami z obrazem w pierwszej wersji ([deployment.yaml](/deployment.yaml)),
 - przeskalować aplikację do pracy na 6 podach ([deployment2.yaml](/deployment2.yaml)),
@@ -20,9 +20,10 @@ Dwa obrazy nginx w dwóch wersjach (latest i stable):
 ![deployment5](/images/deployment5.PNG)
 
 
-<h2>Dodatkowe zadanie</h2>
+### Dodatkowe zadanie
 Wykorzystując przykłady z poprzednich (szczególnie dwóch) slajdów należy:
-- opracować plik konfiguracyjny dla obiektu Deployment 
+- opracować plik konfiguracyjny dla obiektu Deployment ([client-deployment.yaml](/lab13Add/client-deployment.yaml), [server-deployment.yaml](/lab13Add/server-deployment.yaml), [worker-deployment.yaml](/lab13Add/worker-deployment.yaml))
+- opracować plik konfiguracyjny dla obiektu ClusterIP Service ([client-cluster-ip-service.yaml](/lab13Add/client-cluster-ip-service.yaml), [server-cluster-ip-service.yaml](/lab13Add/server-cluster-ip-service.yaml))
 - wdrożyć w/w obiekty w klastrze Kubernetes (minikube)
 - za pomocą poznanych poleceń udowodnić poprawność wykonanych konfiguracji
 
